@@ -1,0 +1,293 @@
+/*
+Template Name:my-property-web
+Template URI:http://www.bglobalsourcing.com
+Author:Ahmed,tanvir
+Author URI:http://www.bglobalsourcing.com
+Version:1.0
+Description:This is basis template
+
+*/
+
+
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q demo
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+
+/* Loading
+***********************/
+.loading #container {opacity: 0;}
+.loading:before  { content: 'LOADING'; display: block; margin: 100px 0 0; text-align: center; color: #fff; font-weight: bold; font-size: 60px; opacity: 0.3; }
+body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease; font-family: 'PT Sans', sans-serif; font-size:15px;}
+
+/* Layout
+***********************/
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus{ background:#7aba7a;}
+.navbar-nav > li > a{ color:#fff;}
+.navbar-nav > li > a:hover{color:#7aba7a;}
+
+#main {overflow: hidden;}
+.thumb{width:100%; max-width:724px; margin:0 auto; margin-top:-200px; top:-30px; position:relative;}
+.thumb .flexslider {background:none;}
+.thumb .flexslider .slides > li{margin-right:15px; background:none; max-width:106px;}
+.thumb .flexslider .slides > li.flex-active-slide img{border: solid 2px #162b3e;}
+.thumb img{ min-height:94px; min-width: 110px;  background-color: #fff; -webkit-box-shadow: 0 3px 5px rgba(33,30,31,.35); -moz-box-shadow: 0 3px 5px rgba(33,30,31,.35); box-shadow: 0 3px 5px rgba(33,30,31,.35); border: solid 2px #fff; }
+
+
+/*------ css by aklima -----*/
+.container {
+   
+}
+.parentWrap{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .propInfo, .locationInfo, .weatherInfo, .NeighborInfo, .propertyInq, .footerSection {
+     font-family: "Roboto Slab";
+     margin-bottom: 95px;
+ }
+ .propInfo {
+     margin-top: 40px;
+     
+ }
+ .propInfo .sectionHeading {
+     margin-bottom: 50px;
+ }
+ .locationInfo .sectionHeading {
+     margin-bottom: 33px;
+ }
+ .weatherInfo .sectionHeading {
+     margin-bottom: 45px;
+ }
+ .NeighborInfo .sectionHeading {
+     margin-bottom: 52px;
+ }
+ .propertyInq .sectionHeading {
+     margin-bottom: 55px;
+ }
+.sectionWraper {
+    max-width: 946px;
+    margin: 0 auto;
+}
+.parentWrap h2 span {
+    color: #7aba7a;
+    
+}
+.parentWrap h2 {
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 49px;
+}
+.locationName {
+    text-align: center;
+    margin-bottom: 38px;
+}
+.locationName strong {
+    font-size: 16px;
+    font-weight: bold;
+}
+.locationInfo h2 {
+    margin-bottom: 30px;
+}
+hr {
+    margin-top: 27px;
+    color: #dadada;
+}
+.propertyInfoRightSide {
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-top: 3px;
+    border-bottom: none;
+}
+.propertyInfoRightSide div {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0 15px 18px;
+}
+.propertyLeft p {
+    margin-bottom: 25px;
+    font-weight: normal;
+    line-height: 22px;
+}
+.propertyLeft .lastPra {
+    margin-bottom: 0;
+}
+.propertyLeft span {
+     color: #7aba7a;
+     font-weight: bold;
+     margin-bottom: 5px;
+     display: block;
+}
+
+.weatherSecWrap {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 25px 14px;
+}
+.weatherSecWrap img {
+    display: inline-block;
+}
+.weatherSecWrap h4 {
+    color: #7aba7a;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.weatherSecWrap p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #464646;
+}
+.neighborSecWrap {
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.neighborSecWrap div {
+    border-bottom: 1px solid #ccc;
+    padding: 9px;
+}
+.neiImg img {
+    width: 100%;
+    max-height: 350px;
+}
+.neighborSecWrap img {
+    margin-right: 13px;
+    vertical-align: middle;
+}
+.propertyInq p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.propertyInq h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7aba7a;
+    margin-bottom: 7px;
+}
+.form-control {
+    height: 48px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control::-webkit-input-placeholder {
+    color: #464646;
+    font-size: 15px;
+}
+.inqContact {
+    text-align: center;
+    font-size: 15px;
+}
+.inqContact strong {
+    font-size: 15px;
+    font-weight: bold;
+}
+.inqContact p {
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.inqContact h4 {
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.socialIcon {
+    text-align: center;
+    margin-top: 17px;
+}
+.socialIcon li {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.btn.send {
+    width: 107px;
+    height: 49px;
+    background: #2d4051;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+}
+.footerSection p {
+    color: #fff;
+    padding: 40px 0;
+    font-size: 15px;
+}
+.footerSection {
+    background: #7aba7a;
+    margin-bottom: 0;
+    
+}
+.sectionHeading {
+    background: url("images/gray-bar.png") repeat-x center center;
+    text-align: center;
+}
+.sectionHeading h2 { 
+    background: #fff;
+    display: inline;
+    padding: 0 40px;
+}
+.propertyInq {
+    margin-bottom: 45px!important;
+}
+.powerdBy {
+    position: absolute!important;
+    bottom: 0;
+    right: 10%;
+    text-align: right;
+   
+}
+.powerdBy img {
+    display: inline-block;
+} 
+.dLoadBrochure {
+    background: #283a49;
+   
+    padding: 16px;
+    
+    position: absolute;
+    top: 24px;
+    right: 31px;
+    z-index: 9999;
+} 
+.dLoadBrochure a {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    color: #fff;
+    padding-left: 8px;
+}
+/*------ css by aklima -----*/
+
+
+
+/* Media Queries
+***********************/
+@media screen and (max-width: 960px) {
+
+}
+@media screen and (max-width: 768px) {
+ .thumb{width:100%; max-width:724px; margin:0 auto; margin-top:20px; top:0; }
+}
+
+@media screen and (max-width: 767px) {}
+

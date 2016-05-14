@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+a:focus {outline: 0;}
+.shadow{background-color: #dbd9d3; -webkit-box-shadow: 0 0 8px rgba(0,1,1,.3); -moz-box-shadow: 0 0 8px rgba(0,1,1,.3); box-shadow: 0 0 8px rgba(0,1,1,.3); border: solid 2px #fff;}
+h2 {text-transform: uppercase; text-align: center; font-size: 36px; color: #3c3c3c; margin-bottom:25px;}
+.red{color:#d00300; font-weight:700; font-size:16px;}
+body{ background:url(../images/bg.jpg) fixed top no-repeat; font-family: 'Arimo', sans-serif; font-weight:400; background-size:100%; color:#272b32; font-size:15px;}
+.container-fluid {max-width: 1230px;}
+
+header{ min-height: 73px !important; background: #fff url(../images/line.jpg) bottom repeat-x; -webkit-box-shadow: 0 0 9px rgba(0,0,0,.47); -moz-box-shadow: 0 0 9px rgba(0,0,0,.47); box-shadow: 0 0 9px rgba(0,0,0,.47); border:0; }
+.navbar-fixed-top{ border:0;}
+.navbar-toggle, .navbar-default .navbar-toggle{ background-color:#d82027;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color:#d82027;}
+.navbar-default .navbar-toggle .icon-bar{ background:#fff;}
+.navbar-brand > img{ width:100%; margin-top:9px; }
+.navbar-brand{margin-right:122px;}
+.nav.navbar-nav{ margin:19px 0 0 0;}
+.navbar-nav > li > a{text-transform:uppercase; font-size:13px; color:#4c4c4c; font-weight:700; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: rgba(0,0,0,0); border: solid 2px #f8f8f8; padding:0 13px; line-height:28px; margin:0 13px}
+.navbar-nav > li > a.current{ background:#d82027 !important; color:#fff !important; border: solid 2px #d82027;}
+.nav.navbar-nav li:last-child a {border-bottom: medium none;}
+.navbar-default .navbar-nav > li > a:hover{-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: rgba(0,0,0,0); border: solid 2px #d9a245;}
+
+
+#home {min-height: 536px;}
+#contact { padding:28px 0 56px;}
+#faqs{ background:#e6e6e6; min-height:inherit; padding:28px 0;}
+#company{ background:#fff;}
+
+
+/*------------------ stores section -------------*/
+.storesWrapper {background: #fff url(../images/stores-top-bg.jpg) top repeat-x; min-height: 20px; }
+.storesWrapper h1 {text-transform: uppercase; text-align: center; font-size: 36px; color: #3c3c3c; margin-top: 46px;}
+.storesWrapper p {text-align: center; font-size: 18px; color: #3c3c3c; margin:0 0 24px; line-height: 25px;}
+.storesWrapper img {display: inline-block;}
+.storesWrapper .storeImgLeft {text-align: right; position: relative; margin-right: -11px; }
+.storesWrapper .storeImgRight {text-align: left; position: relative; margin-left: -11px; }
+.storesWrapper button.bangladesh, .storesWrapper button.bhutan {position: absolute; bottom: 75px; background: #fff; opacity: .8; font-size: 14px;  border: none; padding: 5px 0; width: 150px;}
+.storesWrapper button.bangladesh:hover, .storesWrapper button.bhutan:hover {background: #d82027; opacity: 10; color: #fff;}
+.storesWrapper button.bangladesh { right: 111px;}
+.storesWrapper button.bhutan {left: 105px;}
+
+
+/*------------------ operations section -------------*/
+#operations {background: #d8a144;}
+#operations h2 {color: #fff; text-transform: uppercase; font-size: 36px; text-align: center; margin-top: 43px; margin-bottom: 8px;}
+#operations p {color: #fff; text-align: center; font-size: 18px; line-height: 24px; margin-bottom: 21px;}
+.learnMoreNfaq {text-align: center; color: #fff; font-size: 18px; padding-bottom: 34px; }
+.learnMoreNfaq a {color: #fff; font-size: 18px;}
+
+/*------------------ Company section -------------*/
+#company h2 {text-transform: uppercase; text-align: center; font-size: 36px; color: #3c3c3c; margin-top: 46px;}
+#company p {text-align: center; font-size: 18px; color: #3c3c3c; margin:0 0 24px; line-height: 25px;}
+.comImgWrap {position: relative; top: 0; left: 0; z-index: 0; margin-right: -15px;}
+.comImgWrap .companyBtn {position: absolute; right: 64px; bottom: 67px; background: #fff; opacity: .8; font-size: 14px;  border: none; padding: 5px 0; width: 150px;}
+.comImgWrap .companyBtn:hover {background: #d82027; opacity: 10; color: #fff;}
+
+.owl-carousel .owl-item {margin-left: 4px; margin-bottom: 20px;}
+.customNavigation .btn.prev {background: url(../images/left-arrow.png) center no-repeat; position: absolute; top: 35px; left: -2%; z-index: 10; height: 26px;}
+.customNavigation .btn.next { background: url(../images/right-arow.png) center no-repeat; position: absolute; top: 35px; right: -3%; z-index: 10; height: 26px;}
+#owl-demo {margin-top: 15px; margin-bottom: 25px;}
+.customNavigation .btn.prev:hover {background: url(../images/left-arrow-hover.png) center no-repeat;}
+.customNavigation .btn.next:hover {background: url(../images/right-arow-hover.png) center no-repeat;}
+
+/*contact
+----------------------------------------*/
+#faqs p{ margin-bottom:32px;}
+#faqs p strong{ color:#d00300; font-size:16px; display:block;}
+
+/*contact
+----------------------------------------*/
+#contact{ background:#fff;}
+.contactmap{ background:url(../images/map.jpg) top center no-repeat; background-size:cover; min-height:283px;}
+.contactmap p { font-size:15px; line-height:22px;}
+.contactmap p strong{ display:block; font-size:16px;}
+.line{ background:url(../images/line.png) left repeat-y; min-height:283px; padding:18px;}
+#contact input, #contact textarea{ margin-bottom:15px; border-radius:0;}
+.btn-danger{ background-color:#d82027 !important; border-radius: 4px !important; font-size:15px;}
+
+/*--------------Footer------------------*/
+footer{ background:#585754; min-height:58px; line-height:58px; color:#fff; font-size:13px;}
+footer a, footer a:hover, footer a:focus{color:#fff;}
+
+/*--------------Modal------------------*/
+.modal-header{ border-bottom:0; padding:0;}
+button.close, button.close:hover{ position:absolute; right:0; opacity:1; right: -8px; top: -5px;}
+.modal-body{ padding:28px;}
+.carousel{ margin-bottom:24px;}
+#about p{ font-size:15px; line-height:22px; margin-bottom:20px;}
+#about p:last-child{ margin-bottom:0;}
+#about p strong{ display:block; color:#d82027; font-size:18px; text-transform:uppercase;}

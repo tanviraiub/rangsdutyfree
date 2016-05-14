@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<title>RANGS DUTY FREE</title>
+
+<!-- CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="icon/apple-touch-icon.png">
+<link rel="icon" href="icon/favicon.ico">
+</head>
+<body>
+<div class="wrap">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> 
+
+<!-- Docs master nav -->
+<header class="navbar navbar-default navbar-fixed-top single-page-nav" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a href="#home" class="navbar-brand"><img class="img-responsive" src="images/logo-rangs-duty-free.png" alt="Rangs duty free"/></a> </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li><a class="current" href="#home">Home</a></li>
+        <li><a href="#stores">Stores</a></li>
+        <li><a href="#operations">Operations</a></li>
+        <li><a href="#company">Company</a></li>
+        <li><a href="#faqs">FAQ’s</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Page content of course! -->
+<main class="" id="content" role="main">
+  <div class="container-fluid"> </div>
+</main>
+<section id="home"> </section>
+<section id="stores" class="section">
+  <div class="container-fluid">
+    <div class="storesWrapper">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>Where are our stores?</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br>
+            tincidunt ut  laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="storeImgLeft"> <img src="images/stores-img.png" alt="store" class="img-responsive" />
+            <button  type="button" class="bangladesh btn btn-default" data-toggle="modal" data-target="#bangladesh">Bangladesh</button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="storeImgRight"> <img src="images/store-img-two.png" alt="store" class="img-responsive" />
+            <button  type="button" class="bhutan btn btn-default" data-toggle="modal" data-target="#bhutan">Bhutan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="operations" class="section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>yes, we’re passionate about our business</h2>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. </p>
+        <div class="learnMoreNfaq single-page-nav"><a href="" class="btn btn-danger" data-toggle="modal" data-target="#about">Learn More</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="company" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>HOW DO WE OPERATE?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br>
+          tincidunt ut  laoreet dolore magna aliquam erat volutpat.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="comImgWrap"> <img src="images/Star-Rated-Hotels.png" alt="Star Rated Hotels" class="img-responsive" />
+          <button type="button" class="companyBtn btn btn-default" data-toggle="modal" data-target="#star-rated">Star Rated Hotels</button>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="comImgWrap"> <img src="images/Local-Hubs.png" alt="Local/Int. Hubs" class="img-responsive" />
+          <button type="button" class="companyBtn btn btn-default" data-toggle="modal" data-target="#local">Local/Int. Hubs</button>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="comImgWrap"> <img src="images/Alcohol-Bars.png" alt="Alcohol Bars" class="img-responsive" />
+          <button type="button" class="companyBtn btn btn-default" data-toggle="modal" data-target="#alcohol">Alcohol Bars</button>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="comImgWrap"> <img src="images/Bonded-Warehouse.png" alt="Bonded Warehouse" class="img-responsive" />
+          <button type="button" class="companyBtn btn btn-default" data-toggle="modal" data-target="#warehouse">Bonded Warehouse</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div id="owl-demo" class="owl-carousel">
+
+                        <div class="item"><img src="images/logo-1.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-15.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-16.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-4.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-5.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-6.png" alt="patnar logo"  class="img-responsive"/></div>
+                        <div class="item"><img src="images/logo-7.png" alt="patnar logo"  class="img-responsive"/></div>
+                        <div class="item"><img src="images/logo-8.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-9.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-10.png" alt="patnar logo"  class="img-responsive"/></div>
+                        <div class="item"><img src="images/logo-11.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-12.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-13.png" alt="patnar logo"  class="img-responsive"/></div>
+                        <div class="item"><img src="images/logo-14.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-2.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-3.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-17.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-18.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-19.png" alt="patnar logo" class="img-responsive" /></div>
+                        <div class="item"><img src="images/logo-20.png" alt="patnar logo" class="img-responsive" /></div>
+
+                    </div>
+                    <div class="customNavigation">
+                        <a class="btn prev"></a>
+                        <a class="btn next"></a>
+                    </div>
+                </div>
+            </div>
+  </div>
+</section>
+<section id="faqs" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>confused? we’ve answers</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p><strong>Who can shop?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p><strong>What kind of products are available?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p> <strong>Can I pay with international credit card?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p><strong>Is there any restrictions?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p><strong>Who can shop?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p><strong>What kind of products are available?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p><strong>Can I pay with international credit card?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p><strong>Is there any restrictions?</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>how to reach us?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p class="red">Feel free to contact us...</p>
+        <label class="sr-only">Full Name *</label>
+        <input class="form-control" type="text" placeholder="Full Name *">
+        <label class="sr-only">Email *</label>
+        <input class="form-control" type="text" placeholder="Email *">
+        <label class="sr-only">Phone</label>
+        <input class="form-control" type="text" placeholder="Phone">
+        <label class="sr-only">Message *</label>
+        <textarea class="form-control" placeholder="Message *"></textarea>
+        <input class="btn btn-danger" type="submit" value="Submit">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p class="red">Our Locaton</p>
+        <div class="shadow">
+          <div class="contactmap">
+            <div class="line">
+              <p><strong>Address</strong> Sonartari Tower<br>
+                12 Sonargaon Road, Dhaka-1000, Bangladesh</p>
+              <p> Tel: (+880-2) 9663551-3<br>
+                Fax: (+880-2) 8650258/ 9664848</p>
+              <p> E-mail: info@rangs.org<br>
+                Website: www.rangs.org </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer
+    ================================================== -->
+<footer class="footer">
+  <div class="container-fluid">Copyright &copy; 2014. All rights reserved by Rangs Duty Free.  <a href="#" data-toggle="modal" data-target="#privacy-policy">Privacy Policy</a>  -  <a href="#" data-toggle="modal" data-target="#terms">Terms & Conditions</a></div>
+</footer>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/about-pic.jpg" alt="about">
+      
+    </div>
+    <div class="item">
+      <img src="images/about-pic.jpg" alt="about">
+    </div>
+ <div class="item">
+      <img src="images/about-pic.jpg" alt="about">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<p><strong>History</strong>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p><strong>mission &amp; vision</strong>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Bangladesh-->
+<div class="modal fade" id="bangladesh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Bangladesh</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Bhutan-->
+<div class="modal fade" id="bhutan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Bhutan</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Star Rated Hotels-->
+<div class="modal fade" id="star-rated" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Star Rated Hotels</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Local/int Hotels-->
+<div class="modal fade" id="local" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Local/Int. Hubs</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Alcohol Bars-->
+<div class="modal fade" id="alcohol" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Alcohol Bars</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Bonded Warehouse-->
+<div class="modal fade" id="warehouse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   <img class="img-responsive" src="images/about-pic.jpg" alt="about">
+<h2>Bonded Warehouse</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Privacy Policy-->
+<div class="modal fade" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+  
+<h2>Privacy Policy</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal Terms & Conditions-->
+<div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   
+<div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><img src="images/icon-close.png" width="24" height="24" alt="Icon close"/></span><span class="sr-only">Close</span></button>
+   
+<h2>Terms &amp; Conditions</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+<p>
+The mission of Rangs Global Private Ltd. is to provide a enriching and comfortable shopping experience. Customer satisfaction is always at its heart. From our wide range of high quality products to our honorable consumers, highly professional staff  are dedicated to afford maximum service.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.singlePageNav.min.js"></script> 
+<script src="js/owl.carousel.js"></script>
+
+    
+     <script>
+        $(document).ready(function() {
+			
+			$('header.navbar').on('click', 'nav.navbar-collapse ul a', function(){
+				$('header.navbar button.navbar-toggle').trigger('click');
+				
+				});
+ // Prevent console.log from generating errors in IE for the purposes of the demo
+        if ( ! window.console ) console = { log: function(){} };
+
+        // The actual plugin
+        $('.single-page-nav').singlePageNav({
+            offset: $('.single-page-nav').outerHeight(),
+            filter: ':not(.external)',
+            updateHash: true
+        });
+            var owl = $("#owl-demo");
+
+            owl.owlCarousel({
+
+                items : 7, //10 items above 1000px browser width
+                itemsDesktop : [1000,5], //5 items between 1000px and 901px
+                itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+                itemsTablet: [600,2], //2 items between 600 and 0;
+                itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+            });
+
+            // Custom Navigation Events
+            $(".next").click(function(){
+                owl.trigger('owl.next');
+            })
+            $(".prev").click(function(){
+                owl.trigger('owl.prev');
+            })
+            $(".play").click(function(){
+                owl.trigger('owl.play',1000);
+            })
+            $(".stop").click(function(){
+                owl.trigger('owl.stop');
+            })
+
+
+        });
+    </script>
+</body>
+</html>

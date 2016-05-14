@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* xs */
+@media (max-width: 400px) {
+.navbar-brand > img {
+    max-width: 230px;
+    width: 100%;
+}	
+	}
+
+@media (max-width: 767px) {
+body{ background-size:auto; background-attachment:inherit;}
+.navbar-brand{margin-right:0;}
+.navbar-nav > li > a.current, .navbar-default .navbar-nav > li > a:focus{ border:0;}
+.nav.navbar-nav{ margin-bottom:10px;}
+.navbar-default .navbar-nav > li > a:hover{ border:0;}
+.navbar-default .navbar-nav > li > a{border:0; border-bottom:1px solid #58585a; margin:0; border-radius:0; line-height:28px;}	
+.navbar-default .navbar-nav > li > a:hover{border-bottom:1px solid #58585a; margin:0; border-radius:0; background:#d9a245;}
+.nav.navbar-nav li:last-child a{border-bottom:1px solid #fff;}
+.nav.navbar-nav li:last-child a{ border:0;}
+.storesWrapper p br, #company p br{ display:none;}
+.storesWrapper .storeImgLeft{ margin-right: 0; text-align:center;}
+.storesWrapper .storeImgRight{text-align:center; margin-left:0;}
+.storesWrapper button.bangladesh, .storesWrapper button.bhutan, .comImgWrap .companyBtn {left: 0; margin: 0 auto; right: 0;}
+.comImgWrap{ text-align:center;}
+.comImgWrap img{ display:inline;}
+footer{ line-height:22px; padding:10px 0}
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+body{ background-size:auto; background-attachment:inherit;}
+.comImgWrap{ margin:0;}
+.comImgWrap	img{ width:100%;}
+.comImgWrap .companyBtn{left: 0; margin: 0 auto; right: 0; bottom:92px; }
+.storesWrapper p br, #company p br{ display:none;}
+.navbar-brand {margin-right: 0; max-width:200px;}
+.navbar-nav > li > a{margin: 0 8px; padding: 0 8px; font-size:12px;}
+}
+
+@media (max-width: 1024px) {
+.navbar-nav > li > a{margin: 0 8px; padding: 0 8px; font-size:12px;}
+}

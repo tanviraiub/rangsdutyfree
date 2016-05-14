@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="storesWrapper">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>Where are our stores?</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br>
+            tincidunt ut  laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="storeImgLeft"> <img src="images/stores-img.png" alt="store" class="img-responsive" />
+            <button  type="button" class="bangladesh btn btn-default" data-toggle="modal" data-target="#bangladesh">Bangladesh</button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="storeImgRight"> <img src="images/store-img-two.png" alt="store" class="img-responsive" />
+            <button  type="button" class="bhutan btn btn-default" data-toggle="modal" data-target="#bhutan">Bhutan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
